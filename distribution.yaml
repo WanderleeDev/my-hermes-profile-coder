@@ -9,3 +9,18 @@ env_requires:
   - name: AGNES_API_KEY
     description: "Agnes AI API key for image/video generation"
     required: true
+  - name: OPENROUTER_API_KEY
+    description: "OpenRouter API key for LLM access"
+    required: true
+  - name: CLOUDFLARE_API_TOKEN
+    description: "Cloudflare API token for Workers, Durable Objects, R2"
+    required: true
+  - name: R2_ACCESS_KEY_ID
+    description: "Cloudflare R2 access key ID for object storage"
+    required: false
+  - name: R2_SECRET_ACCESS_KEY
+    description: "Cloudflare R2 secret access key"
+    required: false
+  - name: R2_ACCOUNT_ID
+    description: "Cloudflare account ID for R2"
+    required: false
